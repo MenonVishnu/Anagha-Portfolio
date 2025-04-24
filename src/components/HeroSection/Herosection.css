@@ -1,0 +1,32 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-family: "Koulen";
+  font-size: 90px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 410px;
+  height: 407px;
+  background-color: #ffe2d1;
+  z-index: -1;
+}
+
+.paragraph {
+  font-family: "Kosugi Maru";
+  width: 660px;
+  height: 244px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+}

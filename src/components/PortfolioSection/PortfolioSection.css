@@ -19,7 +19,7 @@
   text-shadow: 4px 4px 4px #00000066;
 }
 
-p {
+.portfolio p {
   position: absolute;
   font-family: "Kosugi Maru";
   font-size: 20px;
