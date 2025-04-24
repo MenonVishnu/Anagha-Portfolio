@@ -1,0 +1,14 @@
+nav {
+  padding: 55px 200px 0px 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: black;
+  font-family: "Kosugi Maru";
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: underline 1px;
+  line-height: 22px;
+}
