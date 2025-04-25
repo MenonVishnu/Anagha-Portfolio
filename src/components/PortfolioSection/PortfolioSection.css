@@ -8,11 +8,12 @@
 .heading {
   position: relative;
   height: 214px;
-  width: 664px;
-  font-size: 128px;
+  width: 46%;
+  font-size: 800%;
   letter-spacing: 5px;
   font-family: "Koulen";
   background-image: url("../../assets/Hero-Background.png");
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,28 +29,28 @@
 }
 
 .ele-1 {
-  top: 80px;
-  left: 32px;
+  top: 37%;
+  left: 5%;
   rotate: 270deg;
 }
 
 .ele-2 {
-  top: 35px;
-  left: 76px;
+  top: 17%;
+  left: 11.5%;
 }
 
 .ele-3 {
-  top: 150px;
+  top: 70%;
   left: 260px;
 }
 
 .ele-4 {
   rotate: 90deg;
-  top: 110px;
-  right: 55px;
+  top: 50%;
+  right: 8%;
 }
 
 .ele-5 {
-  top: 130px;
-  right: 54px;
+  top: 60%;
+  right: 8%;
 }

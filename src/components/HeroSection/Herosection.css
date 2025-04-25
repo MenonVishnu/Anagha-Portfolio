@@ -1,4 +1,5 @@
 .hero-container {
+  /* margin-top: 38px; */
   position: relative;
   display: flex;
   align-items: center;
@@ -8,10 +9,26 @@
 .hero-heading {
   font-family: "Koulen";
   font-size: 90px;
+  margin: 40px 0px -30px 0px;
+  letter-spacing: 2.5px;
+}
+
+.rect-1 {
+  position: absolute;
+  z-index: -2;
+  left: -15%;
+  top: 46%;
+}
+
+.rect-2 {
+  position: absolute;
+  z-index: -2;
+  right: -16%;
+  top: 38%;
 }
 
 .circle {
-  position: absolute;
+  margin-right: 15%;
   border-radius: 50%;
   width: 410px;
   height: 407px;
@@ -19,14 +36,44 @@
   z-index: -1;
 }
 
-.paragraph {
+.paragraph-container {
+  position: absolute;
   font-family: "Kosugi Maru";
-  width: 660px;
-  height: 244px;
   font-size: 24px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-heading {
+  display: flex;
+  align-items: center;
+}
+
+.sub-heading img {
+  margin-left: 10px;
+}
+
+.anagha-image {
+  /* width: 42%; */
+  /* height: 42%; */
+  margin-bottom: 80px;
+  margin-right: 20px;
+}
+
+.paragraph {
+  /* margin-left: -80px; */
+  margin-right: 40px;
+  width: 660px;
+  align-items: center;
+}
+
+.paragraph p {
+  width: 100%;
 }
 
 p {
+  line-height: 26px;
+  letter-spacing: 1px;
 }
