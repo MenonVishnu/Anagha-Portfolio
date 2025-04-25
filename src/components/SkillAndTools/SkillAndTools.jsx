@@ -8,12 +8,12 @@ import ToolImage from "../../assets/skills/Tool-image.png";
 import Background from "../../assets/skills/rect-3.svg";
 
 //Tools Asset:
-import tool1 from "../../assets/skills/tool-1.png";
-import tool2 from "../../assets/skills/tool-2.png";
-import tool3 from "../../assets/skills/tool-3.png";
-import tool4 from "../../assets/skills/tool-4.png";
-import tool5 from "../../assets/skills/tool-5.png";
-import tool6 from "../../assets/skills/tool-6.png";
+import tool1 from "../../assets/skills/tools-1.png";
+import tool2 from "../../assets/skills/tools-2.png";
+import tool3 from "../../assets/skills/tools-3.png";
+import tool4 from "../../assets/skills/tools-4.png";
+import tool5 from "../../assets/skills/tools-5.png";
+import tool6 from "../../assets/skills/tools-6.png";
 
 import tool1arr from "../../assets/skills/tool-1-arr.png";
 import tool2arr from "../../assets/skills/tool-2-arr.png";
