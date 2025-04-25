@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.sub-heading img {
+.sub-heading > img {
   margin-left: 10px;
 }
 

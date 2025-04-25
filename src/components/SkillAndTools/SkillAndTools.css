@@ -1,0 +1,147 @@
+.section-container {
+  top: 98px;
+  position: relative;
+  height: 485px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 120px 0px 110px;
+}
+
+.skill-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-heading,
+.tools-heading {
+  position: relative;
+  font-family: "Koulen";
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 4px 4px 4px #00000066;
+}
+
+.skill-heading {
+  margin-bottom: 180px;
+}
+
+.tools-heading {
+  margin-top: 180px;
+}
+
+.background-image {
+  z-index: -1;
+}
+
+.skill-heading p {
+  position: absolute;
+  font-family: "Kosugi Maru";
+  font-size: 25px;
+  text-shadow: none;
+}
+
+.sk-ele-1 {
+  position: absolute;
+  left: -40px;
+  width: 200px;
+  top: -35px;
+}
+
+.circle-yellow {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #f8ff30;
+  margin-left: 62px;
+  z-index: -1;
+}
+
+.sk-ele-2 {
+  position: absolute;
+  left: 210px;
+  width: 300px;
+  top: -30px;
+}
+
+.circle-skin {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #ffcfb3;
+  margin-left: -10px;
+  margin-top: 2px;
+  z-index: -1;
+}
+
+.sk-ele-3 {
+  position: absolute;
+  left: 440px;
+  width: 300px;
+  top: 105px;
+}
+
+.circle-green {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #86fa16;
+  margin-left: 118px;
+  margin-top: 4px;
+  z-index: -1;
+}
+
+.sk-ele-4 {
+  position: absolute;
+  left: 270px;
+  width: 300px;
+  top: 205px;
+}
+
+.circle-red {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #ff5757;
+  margin-left: 76px;
+  margin-top: 5px;
+  z-index: -1;
+}
+
+.sk-ele-5 {
+  position: absolute;
+  left: 30px;
+  width: 300px;
+  top: 290px;
+}
+
+.circle-purple {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #b38fff;
+  margin-left: 124px;
+  margin-top: -5px;
+  z-index: -1;
+}
+
+.sk-ele-6 {
+  position: absolute;
+  left: -30px;
+  width: 300px;
+  top: 190px;
+}
+
+.circle-blue {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #97d1fd;
+  margin-left: 8px;
+  margin-top: 5px;
+  z-index: -1;
+}

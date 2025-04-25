@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import PortfolioSection from "./components/PortfolioSection/PortfolioSection.jsx";
 import HeroSection from "./components/HeroSection/Herosection.jsx";
+import SkillAndTools from "./components/SkillAndTools/SkillAndTools.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <PortfolioSection />
       <HeroSection />
+      <SkillAndTools />
     </>
   );
 }
