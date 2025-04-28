@@ -1,0 +1,11 @@
+.project-container {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-heading {
+  font-family: "Koulen";
+  font-size: 120px;
+}

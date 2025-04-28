@@ -1,0 +1,67 @@
+.portfolio {
+  margin-top: 93px;
+  margin: 93px 0px 38px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  position: relative;
+  /* width: 46%; */
+  font-size: 128px;
+  letter-spacing: 5px;
+  font-family: "Koulen";
+  /* background-image: url("../../assets/Hero-Background.png"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 4px 4px 4px #00000066;
+}
+
+.heading img {
+  position: absolute;
+  z-index: -1;
+  height: 214px;
+}
+
+.portfolio p {
+  position: absolute;
+  font-family: "Kosugi Maru";
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-shadow: none;
+}
+
+.ele-1 {
+  top: 36%;
+  left: -8%;
+  rotate: 270deg;
+}
+
+.ele-2 {
+  top: 17%;
+  left: 1%;
+}
+
+.ele-3 {
+  top: 68%;
+  left: 36%;
+}
+
+.ele-4 {
+  rotate: 90deg;
+  top: 50%;
+  right: -3%;
+}
+
+.ele-5 {
+  top: 59%;
+  right: -3%;
+}
+
+.ele-6 {
+  font-size: 10px !important;
+  rotate: -90deg;
+  top: 43%;
+  right: 30.5%;
+}
