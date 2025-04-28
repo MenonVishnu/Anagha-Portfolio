@@ -45,6 +45,8 @@
   text-shadow: none;
 }
 
+/* SKILLS */
+
 .sk-ele-1 {
   position: absolute;
   left: -40px;
@@ -178,4 +180,77 @@
   position: absolute;
   top: -20px;
   left: 130px;
+}
+
+/* TOOLS */
+
+.to-ele-1 {
+  position: absolute;
+  top: 100px;
+  left: -80px;
+}
+
+.arr-1 {
+  position: absolute;
+  top: 60px;
+}
+
+.to-ele-2 {
+  position: absolute;
+  top: -110px;
+  left: -90px;
+}
+
+.arr-2 {
+  position: absolute;
+  top: 90px;
+  left: 110px;
+}
+
+.to-ele-3 {
+  position: absolute;
+  top: -150px;
+  left: 90px;
+}
+
+.arr-3 {
+  position: absolute;
+  top: 130px;
+  left: 60px;
+}
+
+.to-ele-4 {
+  position: absolute;
+  top: -130px;
+  right: 0px;
+}
+
+.arr-4 {
+  position: absolute;
+  top: 120px;
+  left: -40px;
+}
+
+.to-ele-5 {
+  position: absolute;
+  top: 20px;
+  right: -100px;
+}
+
+.arr-5 {
+  position: absolute;
+  top: 100px;
+  left: -70px;
+}
+
+.to-ele-6 {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+}
+
+.arr-6 {
+  position: absolute;
+  top: 20px;
+  left: -50px;
 }
