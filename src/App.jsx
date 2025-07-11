@@ -7,6 +7,7 @@ import PortfolioSection from "./components/PortfolioSection/PortfolioSection.jsx
 import HeroSection from "./components/HeroSection/Herosection.jsx";
 import SkillAndTools from "./components/SkillAndTools/SkillAndTools.jsx";
 import ProjectSection from "./components/ProjectSection/ProjectSection.jsx";
+import CaseStudy from "./components/CaseStudy/CaseStudy.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <HeroSection />
       <SkillAndTools />
       <ProjectSection />
+      <CaseStudy />
     </>
   );
 }
