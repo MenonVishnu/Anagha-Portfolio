@@ -8,6 +8,7 @@ import HeroSection from "./components/HeroSection/Herosection.jsx";
 import SkillAndTools from "./components/SkillAndTools/SkillAndTools.jsx";
 import ProjectSection from "./components/ProjectSection/ProjectSection.jsx";
 import CaseStudy from "./components/CaseStudy/CaseStudy.jsx";
+import ThankYou from "./components/ThankYou/ThankYou.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SkillAndTools />
       <ProjectSection />
       <CaseStudy />
+      <ThankYou />
     </>
   );
 }

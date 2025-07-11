@@ -34,7 +34,7 @@ const Study = (props) => {
       });
       setStyleDevice({
         top: "-60px",
-        left: "185px",
+        left: "190px",
       });
     }
   }, [props.data.align]);
@@ -42,14 +42,13 @@ const Study = (props) => {
   return (
     <div className="study-container">
       <div className="study-inside">
+        <div className="external">
+          <SquareArrowOutUpRight size={24} />
+        </div>
         <div className="top">
           <div className="study-title">
             {props.data.title}
             <span className="date">{props.data.date}</span>
-          </div>
-
-          <div className="external">
-            <SquareArrowOutUpRight size={16} />
           </div>
         </div>
 

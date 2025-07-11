@@ -1,0 +1,67 @@
+.thankyou-container {
+  position: relative;
+  margin-top: 120px;
+  margin: 120px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-box {
+  position: absolute;
+  z-index: -1;
+  width: 576px;
+  height: 209px;
+  background-color: #ff5757;
+  border-radius: 0px 20px 20px 0px;
+  left: 0;
+}
+
+.thankyou-heading {
+  font-family: "Koulen";
+  font-size: 120px;
+}
+
+.thankyou-content {
+  font-family: "kosugi maru";
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 100px;
+}
+
+.left-side {
+  /* width: 50vw; */
+  text-align: right;
+}
+
+.left-side p {
+  width: 500px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.right-side {
+  width: 600px;
+  padding: 10px 0px 30px 0px;
+  margin: 0px 100px 0px 0px;
+}
+
+.right-side p {
+  font-size: 20px;
+  line-height: 30px;
+  /* letter-spacing: 10px; */
+}
+
+.right-box {
+  position: absolute;
+  z-index: -1;
+  width: 576px;
+  height: 209px;
+  background-color: #ff5757;
+  border-radius: 20px 0px 0px 20px;
+  right: 0;
+  bottom: -30px;
+}
