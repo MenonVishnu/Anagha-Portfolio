@@ -6,19 +6,29 @@ import "./ProjectPage.css";
 import Image from "../../../assets/Projects/Project-1-Cover.png";
 
 const ProjectPage = () => {
-  return (
-    <div className="project-page">
-      <div className="top-section">
-        <div className="background-box">
-          <div className="projectpage-title">RESUME BUILDER APP</div>
-        </div>
-        <div className="cover-image">
-          <img src={Image} alt="" />
-        </div>
-      </div>
-      <div className="projects"></div>
-    </div>
-  );
+	return (
+		<div className="project-page">
+			<div className="top-section">
+				<div className="background-box">
+					<div className="projectpage-title">RESUME BUILDER APP</div>
+					<div className="sub-section">
+						<div className="sub-title">Design Thinking</div>
+						<div className="sub-para">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+							Veritatis dignissimos quod saepe reprehenderit quaerat aliquid
+							neque, nihil illum error nostrum. Lorem ipsum dolor, sit amet
+							consectetur adipisicing elit. Veritatis dignissimos quod saepe
+							reprehenderit quaerat aliquid neque, nihil illum error nostrum.
+						</div>
+					</div>
+				</div>
+				<div className="cover-image">
+					<img src={Image} alt="" />
+				</div>
+			</div>
+			<div className="projects"></div>
+		</div>
+	);
 };
 
 export default ProjectPage;
