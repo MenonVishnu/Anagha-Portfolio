@@ -5,10 +5,18 @@ import "@fontsource/inter"; // Defaults to weight 400
 import "./ProjectCard.css";
 
 import { Eye } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const ProjectCard = (props) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(`projects/${props.data.id}`, {
+      state: { projectData: props.data },
+    });
+  };
+
   return (
-    <div className="project-card">
+    <div className="project-card" onClick={handleClick}>
       <div
         className="project-inside"
         style={{

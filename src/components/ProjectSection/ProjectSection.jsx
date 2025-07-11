@@ -10,6 +10,7 @@ import Project3 from "../../assets/Projects/Project-3.png";
 
 const projectData = [
   {
+    id: 1,
     label: "Web Design",
     title: "Resume Builder App",
     date: "30th March 2025",
@@ -19,6 +20,7 @@ const projectData = [
     backColor: "#f8ff30",
   },
   {
+    id: 2,
     label: "App Design",
     title: "Pet Care App",
     date: "8th Nov 2024",
@@ -28,6 +30,7 @@ const projectData = [
     backColor: "#C6E6FF",
   },
   {
+    id: 3,
     label: "App Design",
     title: "Food Delivery App",
     date: "07th Jan 2024",
@@ -37,6 +40,7 @@ const projectData = [
     backColor: "#E6FF9E",
   },
   {
+    id: 4,
     label: "Civic Notice",
     title: "Notice Delivery App",
     date: "10th July 2024",
