@@ -26,7 +26,29 @@ const ProjectPage = () => {
 					<img src={Image} alt="" />
 				</div>
 			</div>
-			<div className="projects"></div>
+			<div className="mid-section">
+				<div className="mid-title">Typeface</div>
+				<div className="typeface-container">
+					<div className="type-left">
+						<div className="left-title">Aa</div>
+						<div className="alphabets">
+							<p>AaBbCcDdEeFfGgHhIiJjKkLlMm</p>
+							<p>NnOoPpQqRrSsTtUuVvXxYyZz</p>
+							<p>1234567890</p>
+						</div>
+					</div>
+					<div className="type-right">
+						<div
+							className="mid-title"
+							style={{
+								fontSize: "36px",
+							}}>
+							Why Inter?
+						</div>
+						<li>Hello</li>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };

@@ -1,6 +1,6 @@
 .project-page {
 	margin: 100px 0 60px 0;
-	display: flex;
+	/* display: flex; */
 }
 
 .top-section {
@@ -10,6 +10,7 @@
 	height: auto;
 	display: flex;
 	flex-direction: column;
+	padding: 0 0 200px 0;
 }
 
 .projectpage-title {
@@ -63,7 +64,44 @@
 	line-height: 35px;
 }
 
-.projects {
+.mid-section {
+	margin: 0px 0 0 120px;
+}
+
+.mid-title {
+	font-family: "inter";
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 4px;
+}
+
+.typeface-container {
 	display: flex;
-	gap: 70px;
+	gap: 30px;
+	margin: 20px 0 0 0;
+}
+
+.type-left {
+	font-family: "inter";
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	gap: 20px;
+	width: 550px;
+	border: 5px solid #f8ff30;
+	border-radius: 40px;
+	padding: 75px 20px 50px 20px;
+}
+
+.left-title {
+	font-size: 98px;
+	padding: 0 0 0 20px;
+	letter-spacing: 4px;
+}
+
+.alphabets {
+	background-color: #f8ff30;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
 }
