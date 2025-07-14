@@ -1,0 +1,99 @@
+.project-card {
+  width: 380px;
+  height: 600px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-inside {
+  width: 99%;
+  height: 99%;
+  /* background-color: #f8ff30; */
+  border-radius: 30px;
+}
+
+.first-section {
+  height: 55%;
+}
+
+.project-label {
+  font-family: "inter";
+  font-size: 80%;
+  position: relative;
+  top: 20px;
+  right: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 25px;
+  width: 109px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2.5px 1px #00000010;
+  line-height: 0.5px;
+}
+
+.project-title p {
+  padding: 0px 20px 0px 20px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  font-family: "Koulen";
+  font-size: 370%;
+  line-height: 1;
+  text-align: center;
+}
+
+.second-section {
+  height: 45%;
+  padding: 0px 20px 0px 20px;
+}
+
+.project-date {
+  height: 28px;
+  width: 132px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "inter";
+}
+
+.description-title {
+  margin: 7px 0 7px 0;
+  font-family: "inter";
+  font-size: 110%;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.5px !important;
+}
+
+.description-para {
+  font-family: "inter";
+  font-size: 90%;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "inter";
+}
+
+.view-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+  /* border-radius: 50%; */
+}
+
+.view-icon :hover {
+  cursor: pointer;
+}

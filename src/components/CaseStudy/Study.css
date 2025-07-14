@@ -1,0 +1,80 @@
+.study-container {
+  width: 500px;
+  height: 430px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.study-inside {
+  position: relative;
+  width: 99%;
+  height: 99%;
+  background-color: #fafafa;
+  border-radius: 20px;
+  padding: 20px 10px 20px 40px;
+}
+
+.study-container:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.external {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.top {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.study-title {
+  width: 90%;
+  font-family: "inter";
+  font-size: 200%;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.date {
+  font-size: 30%;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.content {
+  /* display: flex; */
+  position: relative;
+}
+
+.para {
+  font-family: "inter";
+  font-weight: 100;
+  font-size: 80%;
+  line-height: 20px;
+  /* text-align: right; */
+
+  width: 20rem;
+  /* height: 10rem; */
+  background-color: #1ed760;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  /* margin: 60px 10px 10px 60px; */
+}
+
+.device {
+  position: absolute;
+  z-index: 1;
+}
+
+.device img {
+  width: 250px;
+  height: 300px;
+}
