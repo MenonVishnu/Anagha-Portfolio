@@ -20,7 +20,8 @@ const HeroSection = () => {
           <div className="hero-heading">Hello,</div>
 
           <p className="sub-heading">
-            I am <img src={Name} alt="anagha name" />{" "}
+            <p className="text">I am </p>
+            <img src={Name} alt="anagha name" />{" "}
           </p>
           <p>
             Computer science graduate with hands-on experience in UI/UX design,

@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
   };
 
   return (
-    <div className="project-card" onClick={handleClick}>
+    <div className="project-card" >
       <div
         className="project-inside"
         style={{
