@@ -36,6 +36,7 @@
 
 .background-image {
   z-index: -1;
+  width: 100vw;
 }
 
 .skill-heading p {
