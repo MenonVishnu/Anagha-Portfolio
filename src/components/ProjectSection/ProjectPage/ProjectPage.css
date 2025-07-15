@@ -11,7 +11,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 0 200px 0;
+  padding: 0 0 300px 0;
 }
 
 .projectpage-title {
@@ -26,10 +26,24 @@
   margin: 40px 0 0 0;
 }
 
+.page-label {
+  margin: 20px 0 0 80px;
+  padding: 10px;
+  width: 180px;
+  box-shadow: 0px 4px 6px #00000010;
+  border-radius: 10px;
+
+  font-family: "inter";
+  font-size: 20px;
+  text-align: center;
+
+  letter-spacing: 2px;
+}
+
 .background-box {
   margin-top: 100px;
   width: 1077px;
-  height: 747px;
+  height: 847px;
   background-color: #f8ff30;
 }
 
@@ -45,13 +59,13 @@
 
 .arrow-1 {
   position: absolute;
-  bottom: 200px;
-  right: 670px;
+  bottom: 220px;
+  right: 600px;
 }
 
 .sub-section {
   /* position: relative; */
-  padding: 20px 0 0 80px;
+  padding: 10px 0 0 80px;
   margin: 40px 0 0 0;
 }
 
@@ -61,7 +75,7 @@
   font-weight: 600;
   font-size: 50px;
   letter-spacing: 4px;
-  line-height: 50px;
+  line-height: 65px;
 }
 
 .sub-para {
@@ -69,8 +83,8 @@
   height: auto;
   font-size: 30px;
   padding: 10px 0 0 0;
-  line-height: 35px;
-  letter-spacing: 4px;
+  line-height: 40px;
+  letter-spacing: 3px;
 }
 
 .mid-section {

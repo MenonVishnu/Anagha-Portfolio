@@ -26,8 +26,10 @@ const ProjectPage = () => {
       <div className="top-section">
         <div className="background-box">
           <div className="projectpage-title">RESUME BUILDER APP</div>
+          <div className="page-label">Web Design</div>
           <div className="sub-section">
             <div className="sub-title">Design Thinking</div>
+
             <div className="sub-para">
               The UI design for the Resume Builder App is meticulously crafted
               to provide a seamless & elegant user experience, allowing
