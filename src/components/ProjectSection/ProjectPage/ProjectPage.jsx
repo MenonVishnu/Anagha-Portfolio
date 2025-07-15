@@ -228,16 +228,22 @@ const ProjectPage = () => {
           <div className="wireframes">
             <div className="image-container-top">
               <div className="image-container">
-                <div className="number-container">1</div>
+                <div className="number-container" id="one">
+                  1
+                </div>
                 <img src={wireframe1} alt="" />
               </div>
               <div className="image-container">
-                <div className="number-container">2</div>
+                <div className="number-container" id="two">
+                  2
+                </div>
                 <img src={wireframe2} alt="" />
               </div>
             </div>
             <div className="image-container-bottom">
-              <div className="number-container">3</div>
+              <div className="number-container" id="three">
+                3
+              </div>
               <img src={wireframe3} alt="" />
             </div>
           </div>
