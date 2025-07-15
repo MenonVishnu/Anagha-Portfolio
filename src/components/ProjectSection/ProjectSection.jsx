@@ -58,7 +58,7 @@ const ProjectSection = () => {
       <div className="projects">
         <ProjectCard data={projectData[0]} />
         <ProjectCard data={projectData[1]} />
-        <ProjectCard data={projectData[2]} />
+        {/* <ProjectCard data={projectData[2]} /> */}
         {/* <ProjectCard data={projectData[3]} /> */}
       </div>
     </div>

@@ -1,6 +1,5 @@
 .thankyou-container {
   position: relative;
-  margin-top: 120px;
   margin: 120px 0 60px 0;
   display: flex;
   flex-direction: column;
@@ -11,7 +10,7 @@
 .left-box {
   position: absolute;
   z-index: -1;
-  width: 576px;
+  width: 40%;
   height: 209px;
   background-color: #ff5757;
   border-radius: 0px 20px 20px 0px;
@@ -44,7 +43,7 @@
 }
 
 .right-side {
-  width: 600px;
+  width: 40%;
   padding: 10px 0px 30px 0px;
   margin: 0px 100px 0px 0px;
 }
@@ -58,7 +57,7 @@
 .right-box {
   position: absolute;
   z-index: -1;
-  width: 576px;
+  width: 40%;
   height: 209px;
   background-color: #ff5757;
   border-radius: 20px 0px 0px 20px;
