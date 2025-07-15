@@ -20,6 +20,11 @@ import vector6 from "../../../assets/Projects/ProjectPage1/vector6.png";
 import vector7 from "../../../assets/Projects/ProjectPage1/vector7.png";
 import vector8 from "../../../assets/Projects/ProjectPage1/vector8.png";
 
+// wireframes
+import wireframe1 from "../../../assets/Projects/ProjectPage1/wireframe1.png";
+import wireframe2 from "../../../assets/Projects/ProjectPage1/wireframe2.png";
+import wireframe3 from "../../../assets/Projects/ProjectPage1/wireframe3.png";
+
 const ProjectPage = () => {
   return (
     <div className="project-page">
@@ -215,6 +220,26 @@ const ProjectPage = () => {
           </div>
           <div className="arrow-4">
             <img src={arrow4} alt="" />
+          </div>
+        </div>
+
+        <div className="fidelity-container">
+          <div className="fidelity-title">High Fidelity Level Wireframes</div>
+          <div className="wireframes">
+            <div className="image-container-top">
+              <div className="image-container">
+                <div className="number-container">1</div>
+                <img src={wireframe1} alt="" />
+              </div>
+              <div className="image-container">
+                <div className="number-container">2</div>
+                <img src={wireframe2} alt="" />
+              </div>
+            </div>
+            <div className="image-container-bottom">
+              <div className="number-container">3</div>
+              <img src={wireframe3} alt="" />
+            </div>
           </div>
         </div>
       </div>

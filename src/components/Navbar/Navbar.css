@@ -4,6 +4,10 @@ nav {
   justify-content: space-between;
 }
 
+.navbar-projects {
+  background-color: white;
+}
+
 nav a {
   color: black;
   font-family: "Kosugi Maru";
