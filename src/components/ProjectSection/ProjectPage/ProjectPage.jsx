@@ -182,7 +182,7 @@ const ProjectPage = () => {
           <div
             className="mid-title"
             style={{
-              width: "400px",
+              width: "50%",
             }}
           >
             Story Boarding & Wireframing

@@ -23,7 +23,7 @@
 }
 
 .thankyou-content {
-  font-family: "kosugi maru";
+  font-family: "kalam";
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -50,6 +50,7 @@
 
 .right-side p {
   font-size: 20px;
+  line-height: 30px;
   line-height: 30px;
   /* letter-spacing: 10px; */
 }
