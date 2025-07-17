@@ -17,7 +17,7 @@ const casestudy = [
             them also listen to the podcast listed by the application.`,
     backColor: "#1ed760",
     align: "left",
-    href: "",
+    href: "https://www.behance.net/gallery/195421455/Spotify-Case-Study",
   },
   {
     title: "TEAM PERFORMANCE TRACKING PORTAL UI CASE STUDY",
@@ -28,7 +28,7 @@ const casestudy = [
                     and make data-driven decisions.`,
     backColor: "#558DE4",
     align: "right",
-    href: "",
+    href: "https://dribbble.com/shots/25886234-TEAM-PERFORMANCE-TRACKING-PORTAL-UI-CASE-STUDY?utm_source=Clipboard_Shot&utm_campaign=Anagha_12&utm_content=TEAM%20PERFORMANCE%20TRACKING%20PORTAL%20UI%20CASE%20STUDY&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Anagha_12&utm_content=TEAM%20PERFORMANCE%20TRACKING%20PORTAL%20UI%20CASE%20STUDY&utm_medium=Social_Share",
   },
 ];
 

@@ -9,7 +9,6 @@
   transition: transform 0.3s ease;
 }
 
-
 .study-inside {
   position: relative;
   width: 99%;
@@ -21,11 +20,11 @@
 
 .study-container:hover {
   transform: scale(1.02);
-  cursor: pointer;
 }
 
 .external {
   position: absolute;
+  cursor: pointer;
   top: 15px;
   right: 15px;
 }
