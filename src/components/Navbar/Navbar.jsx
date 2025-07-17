@@ -14,7 +14,10 @@ const Navbar = () => {
   return (
     <nav className={`${getNavbarClass()}`}>
       {getNavbarClass() === "" ? (
-        <a href="https://drive.google.com/file/d/15ka0jTFebPOr-G8mCInDXhZlMU0R5QFa/view?usp=drivesdk" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/15ka0jTFebPOr-G8mCInDXhZlMU0R5QFa/view?usp=drivesdk"
+          target="_blank"
+        >
           Resume
         </a>
       ) : (
