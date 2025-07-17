@@ -2,6 +2,7 @@ import "@fontsource/koulen"; // Defaults to weight 400
 import "@fontsource/kosugi-maru"; // Defaults to weight 400
 import "@fontsource/inter"; // Defaults to weight 400
 import "./ProjectPage2.css";
+import ViewWork from "./ViewWork";
 
 // import Image from "../../../assets/Projects/Project-1-Cover.png";
 import Image from "../../../assets/Projects/ProjectPage2/Project-2-Cover.png";
@@ -28,6 +29,11 @@ import wireframe12 from "../../../assets/Projects/ProjectPage2/Wireframes/wirefr
 import wireframe13 from "../../../assets/Projects/ProjectPage2/Wireframes/wireframe13.png";
 import wireframe14 from "../../../assets/Projects/ProjectPage2/Wireframes/wireframe14.png";
 
+// sticky notes
+import stickyNote1 from "../../../assets/Projects/ProjectPage2/StickyNote1.png";
+import stickyNote2 from "../../../assets/Projects/ProjectPage2/StickyNote2.png";
+import stickyNote3 from "../../../assets/Projects/ProjectPage2/StickyNote3.png";
+
 const ProjectPage2 = () => {
   return (
     <div className="project-2-project-page">
@@ -53,10 +59,35 @@ const ProjectPage2 = () => {
         <div className="project-2-arrow-1">
           <img src={arrow1} alt="" />
         </div>
+        <div
+          className="stickynotes"
+          style={{
+            bottom: "-20px",
+            right: "200px",
+          }}
+        >
+          <img src={stickyNote1} alt="" />
+        </div>
+        <div
+          className="stickynotes"
+          style={{
+            bottom: "-230px",
+            right: "0px",
+          }}
+        >
+          <img src={stickyNote2} alt="" />
+        </div>
       </div>
 
       <div className="project-2-mid-section">
-        <div className="project-2-mid-title">Typeface</div>
+        <div
+          className="project-2-mid-title"
+          style={{
+            margin: "100px 0 0 0",
+          }}
+        >
+          Typeface
+        </div>
         <div className="project-2-typeface-container">
           <div className="project-2-type-left">
             <div className="project-2-left-title">
@@ -372,8 +403,18 @@ const ProjectPage2 = () => {
               <img src={wireframe14} alt="" />
             </div>
           </div>
+          <div
+            className="stickynotes"
+            style={{
+              bottom: "-150px",
+              left: "0px",
+            }}
+          >
+            <img src={stickyNote3} alt="" />
+          </div>
         </div>
       </div>
+      <ViewWork />
     </div>
   );
 };

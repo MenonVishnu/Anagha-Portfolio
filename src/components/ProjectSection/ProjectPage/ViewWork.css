@@ -1,0 +1,128 @@
+.view-work-container {
+  margin: 150px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 90vw; */
+
+  flex-direction: column;
+  font-family: "inter";
+}
+
+.view-work-content {
+  font-family: "inter";
+  display: flex;
+  margin: 50px 30px 0px 30px;
+  align-items: center;
+  height: 60vh;
+  gap: 64px;
+}
+
+.background-image {
+  height: 100px;
+  width: 100px;
+}
+
+.view-work-title {
+  font-family: "inter";
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.view-card-header {
+  margin: 15px 20px 10px 20px;
+  min-height: 50px;
+  width: 120px;
+  text-align: center;
+}
+
+.glass-container {
+  padding: 20px;
+  background-color: #f5f5f540;
+  /* background-color: #000; */
+  border-radius: 40px;
+
+  transition: transform 0.3s ease;
+}
+
+.glass-container:hover {
+  transform: scale(1.03);
+}
+
+.shape {
+  width: 300px;
+  height: 360px;
+}
+
+.empty {
+  height: 3px;
+}
+
+.view-header {
+  padding: 10px;
+  background-color: #fbfbfb;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+
+  font-size: 12px;
+}
+
+.view-card-content {
+  margin: 0px 10px 10px 20px;
+  letter-spacing: 1px;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-content-title {
+  font-size: 20px;
+}
+
+.view-content-para {
+  margin: 10px 0px 0px 0px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.view-card-footer {
+  position: relative;
+  font-family: "inter";
+  margin: 0px 10px 10px 20px;
+  min-height: 50px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+
+  bottom: 0px;
+}
+
+.view-circle {
+  background-color: #f96413;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+  font-size: 20px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-date {
+  font-size: 10px;
+}

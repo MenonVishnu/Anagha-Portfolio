@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   /* width: 100vw; */
+  height: fit-content;
 }
 
 .hero-heading {
@@ -103,7 +104,7 @@ p {
   }
 
   .hero-container {
-    height: 500px;
+    /* height: 500px; */
   }
 
   .hero-heading {
@@ -150,6 +151,6 @@ p {
 
 @media (max-width: 480px) {
   .hero-container {
-    height: 400px;
+    /* height: 400px; */
   }
 }

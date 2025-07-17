@@ -1,9 +1,10 @@
 .project-card {
   width: 380px;
   height: 600px;
-  background-color: white;
+  background-color: #fbfbfb;
   border-radius: 30px;
   padding: 10px;
+  box-shadow: 0px 4px 30px 2px #00000010;
 
   transition: transform 0.3s ease;
 }
@@ -32,9 +33,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #fff;
   height: 25px;
   width: 109px;
+  border: 1px solid #fbfbfb;
   border-radius: 8px;
   box-shadow: 0px 2px 2.5px 1px #00000010;
   line-height: 0.5px;

@@ -1,22 +1,30 @@
 .section-container {
-  top: 98px;
+  /* top: 98px; */
   position: relative;
-  height: 485px;
+  height: 70vh;
+  /* height: fit-content; */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 120px 0px 110px;
+  margin: 80px 120px 0px 110px;
 }
 
 .skill-container {
+  height: fit-content;
   position: absolute;
   width: 100%;
   display: flex;
+  /* gap: 700px; */
   justify-content: space-between;
+  align-items: center;
+  margin-top: 170px;
 }
 
 .skill-heading,
 .tools-heading {
+  /* margin: 200px 0 200px 0; */
+  /* margin: 0 auto; */
+
   position: relative;
   font-family: "Koulen";
   font-size: 120px;
@@ -24,19 +32,29 @@
   justify-content: center;
   align-items: center;
   text-shadow: 4px 4px 4px #00000066;
+  top: -180px;
 }
 
 .skill-heading {
-  margin-bottom: 180px;
+  /* margin-bottom: 180px; */
+  /* left: 10px; */
+  float: left;
 }
 
 .tools-heading {
-  margin-top: 180px;
+  margin-top: 380px;
+  /* right: 0px; */
+  float: right;
 }
 
-.background-image {
+.tools-heading-title,
+.skill-heading-title {
+  position: relative;
+}
+
+.skills-background-image {
   z-index: -1;
-  width: 99vw;
+  width: 100vw;
 }
 
 .skill-heading p {
@@ -167,6 +185,12 @@
   top: 190px;
 }
 
+.sk-ele-6 img {
+  position: absolute;
+  top: -20px;
+  left: 130px;
+}
+
 .circle-blue {
   border-radius: 50%;
   width: 24px;
@@ -175,12 +199,6 @@
   margin-left: 8px;
   margin-top: 5px;
   z-index: -1;
-}
-
-.sk-ele-6 img {
-  position: absolute;
-  top: -20px;
-  left: 130px;
 }
 
 /* TOOLS */
@@ -255,3 +273,69 @@
   top: 20px;
   left: -50px;
 }
+/* 
+@media (max-width: 1180px) {
+  .section-container {
+    margin: 0 120px 200px 110px;
+  }
+
+  .skill-heading,
+  .tools-heading {
+    scale: 0.9;
+  }
+
+  .tools-heading {
+    margin: 30vw 0 0 0;
+  }
+}
+
+@media (max-width: 980px) {
+  .section-container {
+    margin: 0 120px 200px 110px;
+  }
+
+  .skill-heading,
+  .tools-heading {
+    display: block;
+    scale: 0.8;
+  }
+
+  .tools-heading {
+    margin: 30vw 0 0 0;
+  }
+}
+
+@media (max-width: 980px) {
+  .section-container {
+    margin: 0 60px 200px 60px;
+  }
+
+  .skill-heading,
+  .tools-heading {
+    scale: 0.7;
+  }
+}
+@media (max-width: 680px) {
+  .section-container {
+    margin: 0 20px 200px 20px;
+  }
+
+  .skill-heading,
+  .tools-heading {
+    scale: 0.5;
+  }
+}
+@media (max-width: 440px) {
+  .section-container {
+    margin: 0 20px 200px 20px;
+  }
+
+  .skill-heading,
+  .tools-heading {
+    scale: 0.4;
+  }
+
+  .tools-heading {
+    margin-top: 30vh;
+  }
+} */

@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
   const handleClick = () => {
     navigate(`projects/${props.data.id}`, {});
   };
-
+ 
   return (
     <div className="project-card" onClick={handleClick}>
       <div

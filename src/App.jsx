@@ -15,6 +15,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import ProjectPage from "./components/ProjectSection/ProjectPage/ProjectPage.jsx";
 import ProjectPage2 from "./components/ProjectSection/ProjectPage/ProjectPage2.jsx";
 import ProjectPage3 from "./components/ProjectSection/ProjectPage/ProjectPage3.jsx";
+import Article from "./components/Articles/Article.jsx";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <SkillAndTools />
               <ProjectSection />
               <CaseStudy />
+              <Article />
               <ThankYou />
             </>
           }

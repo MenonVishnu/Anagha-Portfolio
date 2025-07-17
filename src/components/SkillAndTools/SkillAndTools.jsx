@@ -32,12 +32,27 @@ import tool6arr from "../../assets/skills/tool-6-arr.svg";
 
 const SkillAndTools = () => {
   return (
-    <div className="section-container">
+    <div
+      className="section-container"
+      // style={{
+      //   backgroundImage: `url(${Background})`,
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundSize: "auto",
+      // }}
+    >
+      <img
+        className="skills-background-image"
+        src={Background}
+        alt="Background"
+      />
       <div className="skill-container">
         <div className="skill-heading">
-          SK
-          <img src={SkillBulb} alt="skill-image" />
-          LLS
+          <div className="skill-heading-title">
+            SK
+            <img src={SkillBulb} alt="skill-image" />
+            LLS
+          </div>
+
           {/* UX Design */}
           <div className="sk-ele-1">
             <p>UX Design</p>
@@ -77,9 +92,11 @@ const SkillAndTools = () => {
         </div>
 
         <div className="tools-heading">
-          TO
-          <img src={ToolImage} alt="skill-image" />
-          LS
+          <div className="tools-heading-title">
+            TO
+            <img src={ToolImage} alt="skill-image" />
+            LS
+          </div>
           {/* Adobe Xd */}
           <div className="to-ele-1">
             <img src={tool1} alt="tool" />
@@ -112,7 +129,11 @@ const SkillAndTools = () => {
           </div>
         </div>
       </div>
-      <img className="background-image" src={Background} alt="Background" />
+      {/* <img
+        className="skills-background-image"
+        src={Background}
+        alt="Background"
+      /> */}
     </div>
   );
 };

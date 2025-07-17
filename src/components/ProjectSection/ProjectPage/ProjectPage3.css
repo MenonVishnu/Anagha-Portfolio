@@ -49,7 +49,7 @@
   z-index: 1;
   position: absolute;
   right: 0;
-  top: 100px;
+  top: 20px;
 }
 
 .project-3-arrow-1 {
@@ -79,6 +79,17 @@
   padding: 10px 0 0 0;
   line-height: 40px;
   letter-spacing: 3px;
+}
+
+.stickynotes {
+  position: absolute;
+  z-index: 1;
+}
+
+.stickynotes > #arrow-8 {
+  position: absolute;
+  top: 10px;
+  left: -100px;
 }
 
 .project-3-mid-section {
@@ -265,6 +276,12 @@
   right: -80px;
 }
 
+.project-3-template-image > #arrow-6 {
+  position: absolute;
+  bottom: 170px;
+  left: 90px;
+}
+
 .project-3-wireframe-sub {
   border: 5px solid #e6ff9e;
   border-radius: 20px;
@@ -319,6 +336,7 @@
 .project-3-wireframes {
   position: relative;
   background-color: #fbfbfb;
+  /* background-color: #c9ff31; */
   width: 90vw;
   padding: 50px 40px 50px 40px;
   border-radius: 10px;

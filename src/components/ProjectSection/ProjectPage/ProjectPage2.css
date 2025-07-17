@@ -286,6 +286,11 @@
   right: 20px;
 }
 
+.stickynotes {
+  position: absolute;
+  z-index: 1;
+}
+
 .project-2-wireframe-sub {
   border: 5px solid #c6e6ff;
   border-radius: 20px;
@@ -324,7 +329,7 @@
   align-items: center;
   gap: 40px;
   font-family: "inter";
-  margin: 60px 0px 0 0;
+  margin: 60px 0px 100px 0;
   position: relative;
 }
 
@@ -412,7 +417,7 @@
   font-family: "kalam";
   font-size: 28px;
   right: -60px;
-  bottom: 1050px;
+  bottom: 1000px;
 }
 
 .project-2-wireframe-title-1 > #arrow-4 {

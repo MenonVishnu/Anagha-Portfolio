@@ -1,4 +1,5 @@
-.project-container {
+.article-container {
+  margin-top: 120px;
   margin: 120px 0 60px 0;
   display: flex;
   flex-direction: column;
@@ -6,15 +7,16 @@
   justify-content: center;
 }
 
-.project-heading {
+.article-heading {
   font-family: "Koulen";
   font-size: 120px;
 }
 
-.projects {
+.articles {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 70px;
+  height: fit-content;
 }

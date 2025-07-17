@@ -11,7 +11,7 @@ const casestudy = [
   {
     title: "SPOTIFY CASE STUDY",
     date: "29th April, 2024",
-    cover: Case1,
+    cover: Case1, 
     description: `The problem was to generate an UI interface for a music and podcast
             application that allows the user to add the songs & shuffle play
             them also listen to the podcast listed by the application.`,

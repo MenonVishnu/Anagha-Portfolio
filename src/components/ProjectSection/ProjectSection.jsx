@@ -39,16 +39,6 @@ const projectData = [
     coverImage: Project3,
     backColor: "#E6FF9E",
   },
-  {
-    id: 4,
-    label: "Civic Notice",
-    title: "Notice Delivery App",
-    date: "10th July 2024",
-    description: `The UI design for the Food Delivery & Calorie Tracking App combines convenience & health-consciousness in a sleek, user-friendly interface.`,
-    tools: "Figma ",
-    coverImage: Project2,
-    backColor: "#FFE2D1",
-  },
 ];
 
 const ProjectSection = () => {

@@ -213,6 +213,17 @@
   padding: 10px;
 }
 
+.stickynotes {
+  position: absolute;
+  z-index: 1;
+}
+
+.stickynotes > #arrow-5 {
+  position: absolute;
+  top: 30px;
+  left: -100px;
+}
+
 .wireframe-section {
   position: relative;
   margin: 100px 0 0 0;

@@ -10,6 +10,9 @@ import arrow2 from "../../../assets/Projects/ProjectPage3/arrow2.png";
 import arrow3 from "../../../assets/Projects/ProjectPage3/arrow3.png";
 import arrow4 from "../../../assets/Projects/ProjectPage3/arrow4.png";
 import arrow5 from "../../../assets/Projects/ProjectPage3/arrow5.png";
+import arrow6 from "../../../assets/Projects/ProjectPage3/arrow6.png";
+import arrow7 from "../../../assets/Projects/ProjectPage3/arrow7.png";
+import arrow8 from "../../../assets/Projects/ProjectPage3/arrow8.png";
 
 // wireframes
 import wireframe1 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe1.png";
@@ -28,6 +31,11 @@ import wireframe13 from "../../../assets/Projects/ProjectPage3/Wireframes/wirefr
 import wireframe14 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe14.png";
 import wireframe15 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe15.png";
 import wireframe16 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe16.png";
+
+// sticky notes
+import stickyNote1 from "../../../assets/Projects/ProjectPage3/StickyNote1.png";
+import stickyNote2 from "../../../assets/Projects/ProjectPage3/StickyNote2.png";
+import ViewWork from "./ViewWork";
 
 const ProjectPage3 = () => {
   return (
@@ -52,8 +60,18 @@ const ProjectPage3 = () => {
         <div className="project-3-cover-image">
           <img src={Image} alt="" />
         </div>
-        <div className="project-3-arrow-1">
+        {/* <div className="project-3-arrow-1">
           <img src={arrow1} alt="" />
+        </div> */}
+        <div
+          className="stickynotes"
+          style={{
+            bottom: "-180px",
+            right: "0px",
+          }}
+        >
+          <img id="arrow-8" src={arrow8} alt="" />
+          <img src={stickyNote1} alt="" />
         </div>
       </div>
 
@@ -200,6 +218,7 @@ const ProjectPage3 = () => {
             Mobile UI Wireframing
           </div>
           <div className="project-3-template-image">
+            <img id="arrow-6" src={arrow6} alt="" />
             <img src={Image1} alt="" />
           </div>
           <div className="project-3-wireframe-container">
@@ -300,6 +319,15 @@ const ProjectPage3 = () => {
 
         <div className="project-3-fidelity-container">
           <div className="project-3-fidelity-title">Wireframes</div>
+          <div
+            className="stickynotes"
+            style={{
+              top: "-140px",
+              right: "-80px",
+            }}
+          >
+            <img src={stickyNote2} alt="" />
+          </div>
 
           <div className="project-3-wireframe-title-1">
             <p
@@ -387,6 +415,7 @@ const ProjectPage3 = () => {
           </div>
         </div>
       </div>
+      <ViewWork />
     </div>
   );
 };
