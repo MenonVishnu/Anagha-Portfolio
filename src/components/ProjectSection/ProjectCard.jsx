@@ -10,13 +10,11 @@ import { useNavigate } from "react-router-dom";
 const ProjectCard = (props) => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate(`projects/${props.data.id}`, {
-      state: { projectData: props.data },
-    });
+    navigate(`projects/${props.data.id}`, {});
   };
-
+ 
   return (
-    <div className="project-card" >
+    <div className="project-card" onClick={handleClick}>
       <div
         className="project-inside"
         style={{

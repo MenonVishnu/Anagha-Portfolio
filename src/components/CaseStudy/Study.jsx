@@ -43,7 +43,10 @@ const Study = (props) => {
     <div className="study-container">
       <div className="study-inside">
         <div className="external">
-          <SquareArrowOutUpRight size={24} />
+          <SquareArrowOutUpRight
+            size={24}
+            onClick={() => window.open(`${props.data.href}`, "_blank")}
+          />
         </div>
         <div className="top">
           <div className="study-title">

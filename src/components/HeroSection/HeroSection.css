@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   /* width: 100vw; */
+  height: fit-content;
 }
 
 .hero-heading {
@@ -18,7 +19,7 @@
 .rect-1 {
   position: absolute;
   z-index: -2;
-  left: -15%;
+  left: 0;
   top: 46%;
 }
 
@@ -43,7 +44,7 @@
 
 .paragraph-container {
   /* position: absolute; */
-  font-family: "Kosugi Maru";
+  font-family: "kalam";
   /* font-size: 24px; */
   font-size: 1.5vw;
   display: flex;
@@ -73,6 +74,7 @@
 
 .paragraph p {
   width: 100%;
+  line-height: 2vw;
 }
 
 .text {
@@ -102,7 +104,7 @@ p {
   }
 
   .hero-container {
-    height: 500px;
+    /* height: 500px; */
   }
 
   .hero-heading {
@@ -149,6 +151,6 @@ p {
 
 @media (max-width: 480px) {
   .hero-container {
-    height: 400px;
+    /* height: 400px; */
   }
 }

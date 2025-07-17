@@ -4,9 +4,13 @@ nav {
   justify-content: space-between;
 }
 
+.navbar-projects {
+  background-color: white;
+}
+
 nav a {
   color: black;
-  font-family: "Kosugi Maru";
+  font-family: "kalam";
   font-weight: 400;
   font-size: 1.25rem;
   text-decoration: underline 1px;

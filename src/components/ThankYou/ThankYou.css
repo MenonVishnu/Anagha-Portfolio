@@ -23,7 +23,7 @@
 }
 
 .thankyou-content {
-  font-family: "kosugi maru";
+  font-family: "kalam";
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -51,6 +51,7 @@
 .right-side p {
   font-size: 20px;
   line-height: 30px;
+  line-height: 30px;
   /* letter-spacing: 10px; */
 }
 
@@ -63,4 +64,25 @@
   border-radius: 20px 0px 0px 20px;
   right: 0;
   bottom: -30px;
+}
+
+@media (max-width: 880px) {
+  .thankyou-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .left-box {
+    margin: 0;
+  }
+
+  .left-side {
+    text-align: center;
+  }
+
+  .right-side {
+    margin: 0 10px 0 10px;
+    text-align: center;
+    width: 70vw;
+  }
 }

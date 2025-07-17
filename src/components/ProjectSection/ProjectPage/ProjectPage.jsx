@@ -2,6 +2,7 @@ import "@fontsource/koulen"; // Defaults to weight 400
 import "@fontsource/kosugi-maru"; // Defaults to weight 400
 import "@fontsource/inter"; // Defaults to weight 400
 import "./ProjectPage.css";
+import ViewWork from "./ViewWork";
 
 // import Image from "../../../assets/Projects/Project-1-Cover.png";
 import Image from "../../../assets/Projects/ProjectPage1/Project-1-Cover.png";
@@ -9,6 +10,7 @@ import arrow1 from "../../../assets/Projects/ProjectPage1/arrow1.png";
 import arrow2 from "../../../assets/Projects/ProjectPage1/arrow2.png";
 import arrow3 from "../../../assets/Projects/ProjectPage1/arrow3.png";
 import arrow4 from "../../../assets/Projects/ProjectPage1/arrow4.png";
+import arrow5 from "../../../assets/Projects/ProjectPage1/arrow5.png";
 
 // vector
 import vector1 from "../../../assets/Projects/ProjectPage1/vector1.png";
@@ -19,6 +21,16 @@ import vector5 from "../../../assets/Projects/ProjectPage1/vector5.png";
 import vector6 from "../../../assets/Projects/ProjectPage1/vector6.png";
 import vector7 from "../../../assets/Projects/ProjectPage1/vector7.png";
 import vector8 from "../../../assets/Projects/ProjectPage1/vector8.png";
+
+// wireframes
+import wireframe1 from "../../../assets/Projects/ProjectPage1/wireframe1.png";
+import wireframe2 from "../../../assets/Projects/ProjectPage1/wireframe2.png";
+import wireframe3 from "../../../assets/Projects/ProjectPage1/wireframe3.png";
+
+// sticky notes
+import stickyNote1 from "../../../assets/Projects/ProjectPage1/StickyNote1.png";
+import stickyNote2 from "../../../assets/Projects/ProjectPage1/StickyNote2.png";
+import stickyNote3 from "../../../assets/Projects/ProjectPage1/StickyNote3.png";
 
 const ProjectPage = () => {
   return (
@@ -44,6 +56,24 @@ const ProjectPage = () => {
         </div>
         <div className="arrow-1">
           <img src={arrow1} alt="" />
+        </div>
+        <div
+          className="stickynotes"
+          style={{
+            bottom: "80px",
+            right: "0px",
+          }}
+        >
+          <img src={stickyNote1} alt="" />
+        </div>
+        <div
+          className="stickynotes"
+          style={{
+            bottom: "-120px",
+            right: "260px",
+          }}
+        >
+          <img src={stickyNote2} alt="" />
         </div>
       </div>
       <div className="mid-section">
@@ -136,6 +166,16 @@ const ProjectPage = () => {
                 </div>
               </div>
             </div>
+            <div
+              className="stickynotes"
+              style={{
+                bottom: "-320px",
+                right: "-80px",
+              }}
+            >
+              <img id="arrow-5" src={arrow5} alt="" />
+              <img src={stickyNote3} alt="" />
+            </div>
           </div>
           <div className="color-left">
             <div className="color">
@@ -177,7 +217,7 @@ const ProjectPage = () => {
           <div
             className="mid-title"
             style={{
-              width: "400px",
+              width: "50%",
             }}
           >
             Story Boarding & Wireframing
@@ -217,7 +257,34 @@ const ProjectPage = () => {
             <img src={arrow4} alt="" />
           </div>
         </div>
+
+        <div className="fidelity-container">
+          <div className="fidelity-title">High Fidelity Level Wireframes</div>
+          <div className="wireframes">
+            <div className="image-container-top">
+              <div className="image-container">
+                <div className="number-container" id="one">
+                  1
+                </div>
+                <img src={wireframe1} alt="" />
+              </div>
+              <div className="image-container">
+                <div className="number-container" id="two">
+                  2
+                </div>
+                <img src={wireframe2} alt="" />
+              </div>
+            </div>
+            <div className="image-container-bottom">
+              <div className="number-container" id="three">
+                3
+              </div>
+              <img src={wireframe3} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
+      <ViewWork />
     </div>
   );
 };
