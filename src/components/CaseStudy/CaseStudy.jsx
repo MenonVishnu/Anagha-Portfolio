@@ -5,18 +5,19 @@ import Study from "./Study";
 
 import Case1 from "../../assets/Case Study/case1.png";
 import Case2 from "../../assets/Case Study/case2.png";
-import { DessertIcon } from "lucide-react";
+import { DessertIcon, HeartHandshake } from "lucide-react";
 
 const casestudy = [
   {
     title: "SPOTIFY CASE STUDY",
     date: "29th April, 2024",
-    cover: Case1, 
+    cover: Case1,
     description: `The problem was to generate an UI interface for a music and podcast
             application that allows the user to add the songs & shuffle play
             them also listen to the podcast listed by the application.`,
     backColor: "#1ed760",
     align: "left",
+    href: "",
   },
   {
     title: "TEAM PERFORMANCE TRACKING PORTAL UI CASE STUDY",
@@ -27,6 +28,7 @@ const casestudy = [
                     and make data-driven decisions.`,
     backColor: "#558DE4",
     align: "right",
+    href: "",
   },
 ];
 

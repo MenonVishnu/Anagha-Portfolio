@@ -40,7 +40,10 @@ const Study = (props) => {
   }, [props.data.align]);
 
   return (
-    <div className="study-container">
+    <div
+      className="study-container"
+      onClick={() => window.open(`${props.data.href}`, "_blank")}
+    >
       <div className="study-inside">
         <div className="external">
           <SquareArrowOutUpRight size={24} />

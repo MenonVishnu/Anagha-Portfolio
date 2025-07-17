@@ -14,16 +14,24 @@ const Navbar = () => {
   return (
     <nav className={`${getNavbarClass()}`}>
       {getNavbarClass() === "" ? (
-        <a href="">Resume</a>
+        <a href="https://drive.google.com/file/d/15ka0jTFebPOr-G8mCInDXhZlMU0R5QFa/view?usp=drivesdk" target="_blank">
+          Resume
+        </a>
       ) : (
         <Link to="/">
           <a href="">Home</a>
         </Link>
       )}
 
-      <a href="">LinkedIn</a>
-      <a href="">Dribbble</a>
-      <a href="">Medium</a>
+      <a href="https://www.linkedin.com/in/shinde-anagha-anil/" target="_blank">
+        LinkedIn
+      </a>
+      <a href="https://medium.com/@anagha9805" target="_blank">
+        Dribbble
+      </a>
+      <a href="https://dribbble.com/Anagha_12" target="_blank">
+        Medium
+      </a>
     </nav>
   );
 };

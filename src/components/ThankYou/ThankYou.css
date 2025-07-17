@@ -65,3 +65,24 @@
   right: 0;
   bottom: -30px;
 }
+
+@media (max-width: 880px) {
+  .thankyou-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .left-box {
+    margin: 0;
+  }
+
+  .left-side {
+    text-align: center;
+  }
+
+  .right-side {
+    margin: 0 10px 0 10px;
+    text-align: center;
+    width: 70vw;
+  }
+}
