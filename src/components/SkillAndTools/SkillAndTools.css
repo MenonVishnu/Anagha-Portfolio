@@ -1,308 +1,340 @@
 .section-container {
-  /* top: 98px; */
-  position: relative;
-  height: 70vh;
-  /* height: fit-content; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 80px 120px 0px 110px;
+	/* top: 98px; */
+	position: relative;
+	height: 70vh;
+	/* height: fit-content; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 80px 120px 0px 110px;
 }
 
 .skill-container {
-  height: fit-content;
-  position: absolute;
-  width: 100%;
-  display: flex;
-  /* gap: 700px; */
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 170px;
+	height: fit-content;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	/* gap: 700px; */
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 170px;
 }
 
 .skill-heading,
 .tools-heading {
-  /* margin: 200px 0 200px 0; */
-  /* margin: 0 auto; */
+	/* margin: 200px 0 200px 0; */
+	/* margin: 0 auto; */
 
-  position: relative;
-  font-family: "Koulen";
-  font-size: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 4px 4px 4px #00000066;
-  top: -180px;
+	position: relative;
+	font-family: "Koulen";
+	font-size: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 4px 4px 4px #00000066;
+	top: -180px;
 }
 
 .skill-heading {
-  /* margin-bottom: 180px; */
-  /* left: 10px; */
-  float: left;
+	/* margin-bottom: 180px; */
+	/* left: 10px; */
+	float: left;
 }
 
 .tools-heading {
-  margin-top: 380px;
-  /* right: 0px; */
-  float: right;
+	margin-top: 380px;
+	/* right: 0px; */
+	float: right;
 }
 
 .tools-heading-title,
 .skill-heading-title {
-  position: relative;
+	position: relative;
 }
 
 .skills-background-image {
-  z-index: -1;
-  width: 99vw;
+	z-index: -1;
+	width: 99vw;
 }
 
 .skill-heading p {
-  position: absolute;
-  font-family: "kalam";
-  font-size: 25px;
-  text-shadow: none;
+	position: absolute;
+	font-family: "kalam";
+	font-size: 25px;
+	text-shadow: none;
 }
 
 /* SKILLS */
 
 .sk-ele-1 {
-  position: absolute;
-  left: -40px;
-  width: 200px;
-  top: -40px;
+	position: absolute;
+	left: -40px;
+	width: 200px;
+	top: -40px;
 }
 
 .circle-yellow {
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  background-color: #f8ff30;
-  margin-left: 62px;
-  z-index: -1;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #f8ff30;
+	margin-left: 62px;
+	z-index: -1;
 }
 
 .sk-ele-1 img {
-  position: absolute;
-  left: 80px;
-  /* top: -35px; */
+	position: absolute;
+	left: 80px;
+	/* top: -35px; */
 }
 
 .sk-ele-2 {
-  position: absolute;
-  left: 210px;
-  width: 300px;
-  top: -30px;
+	position: absolute;
+	left: 210px;
+	width: 300px;
+	top: -30px;
 }
 
 .circle-skin {
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  background-color: #ffcfb3;
-  margin-left: -10px;
-  margin-top: 2px;
-  z-index: -1;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #ffcfb3;
+	margin-left: -10px;
+	margin-top: 2px;
+	z-index: -1;
 }
 
 .sk-ele-2 img {
-  position: absolute;
-  /* top: -35px; */
+	position: absolute;
+	/* top: -35px; */
 }
 
 .sk-ele-3 {
-  position: absolute;
-  left: 440px;
-  width: 300px;
-  top: 105px;
+	position: absolute;
+	left: 440px;
+	width: 300px;
+	top: 105px;
 }
 
 .circle-green {
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  background-color: #86fa16;
-  margin-left: 118px;
-  margin-top: 4px;
-  z-index: -1;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #86fa16;
+	margin-left: 118px;
+	margin-top: 4px;
+	z-index: -1;
 }
 .sk-ele-3 img {
-  position: absolute;
-  top: -10px;
-  left: -55px;
+	position: absolute;
+	top: -10px;
+	left: -55px;
 }
 
 .sk-ele-4 {
-  position: absolute;
-  left: 270px;
-  width: 300px;
-  top: 205px;
+	position: absolute;
+	left: 270px;
+	width: 300px;
+	top: 205px;
 }
 
 .circle-red {
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  background-color: #ff5757;
-  margin-left: 76px;
-  margin-top: 5px;
-  z-index: -1;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #ff5757;
+	margin-left: 76px;
+	margin-top: 5px;
+	z-index: -1;
 }
 
 .sk-ele-4 img {
-  position: absolute;
-  top: -60px;
-  left: -60px;
+	position: absolute;
+	top: -60px;
+	left: -60px;
 }
 
 .sk-ele-5 {
-  position: absolute;
-  left: 30px;
-  width: 300px;
-  top: 300px;
+	position: absolute;
+	left: 30px;
+	width: 300px;
+	top: 300px;
 }
 
 .circle-purple {
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  background-color: #b38fff;
-  margin-left: 124px;
-  margin-top: -5px;
-  z-index: -1;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #b38fff;
+	margin-left: 124px;
+	margin-top: -5px;
+	z-index: -1;
 }
 
 .sk-ele-5 img {
-  position: absolute;
-  top: -130px;
-  left: 90px;
+	position: absolute;
+	top: -130px;
+	left: 90px;
 }
 
 .sk-ele-6 {
-  position: absolute;
-  left: -30px;
-  width: 300px;
-  top: 190px;
+	position: absolute;
+	left: -30px;
+	width: 300px;
+	top: 190px;
 }
 
 .sk-ele-6 img {
-  position: absolute;
-  top: -20px;
-  left: 130px;
+	position: absolute;
+	top: -20px;
+	left: 130px;
 }
 
 .circle-blue {
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  background-color: #97d1fd;
-  margin-left: 8px;
-  margin-top: 5px;
-  z-index: -1;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #97d1fd;
+	margin-left: 8px;
+	margin-top: 5px;
+	z-index: -1;
 }
 
 /* TOOLS */
 
 .to-ele-1 {
-  position: absolute;
-  top: 100px;
-  left: -80px;
+	position: absolute;
+	top: 100px;
+	left: -80px;
 }
 
 .arr-1 {
-  position: absolute;
-  top: 60px;
+	position: absolute;
+	top: 60px;
 }
 
 .to-ele-2 {
-  position: absolute;
-  top: -110px;
-  left: -90px;
+	position: absolute;
+	top: -110px;
+	left: -90px;
 }
 
 .arr-2 {
-  position: absolute;
-  top: 90px;
-  left: 110px;
+	position: absolute;
+	top: 90px;
+	left: 110px;
 }
 
 .to-ele-3 {
-  position: absolute;
-  top: -150px;
-  left: 90px;
+	position: absolute;
+	top: -150px;
+	left: 90px;
 }
 
 .arr-3 {
-  position: absolute;
-  top: 130px;
-  left: 60px;
+	position: absolute;
+	top: 130px;
+	left: 60px;
 }
 
 .to-ele-4 {
-  position: absolute;
-  top: -130px;
-  right: 0px;
+	position: absolute;
+	top: -130px;
+	right: 0px;
 }
 
 .arr-4 {
-  position: absolute;
-  top: 120px;
-  left: -40px;
+	position: absolute;
+	top: 120px;
+	left: -40px;
 }
 
 .to-ele-5 {
-  position: absolute;
-  top: 20px;
-  right: -100px;
+	position: absolute;
+	top: 20px;
+	right: -100px;
 }
 
 .arr-5 {
-  position: absolute;
-  top: 100px;
-  left: -70px;
+	position: absolute;
+	top: 100px;
+	left: -70px;
 }
 
 .to-ele-6 {
-  position: absolute;
-  top: 130px;
-  left: 190px;
+	position: absolute;
+	top: 130px;
+	left: 190px;
 }
 
 .arr-6 {
-  position: absolute;
-  top: 20px;
-  left: -50px;
+	position: absolute;
+	top: 20px;
+	left: -50px;
+}
+
+/* Transition */
+.sk-ele-1,
+.sk-ele-2,
+.sk-ele-3,
+.sk-ele-4,
+.sk-ele-5,
+.sk-ele-6,
+.to-ele-1,
+.to-ele-2,
+.to-ele-3,
+.to-ele-4,
+.to-ele-5,
+.to-ele-6 {
+	transition: transform 0.3s ease;
+}
+
+.sk-ele-1:hover,
+.sk-ele-2:hover,
+.sk-ele-3:hover,
+.sk-ele-4:hover,
+.sk-ele-5:hover,
+.sk-ele-6:hover,
+.to-ele-1:hover,
+.to-ele-2:hover,
+.to-ele-3:hover,
+.to-ele-4:hover,
+.to-ele-5:hover,
+.to-ele-6:hover {
+	cursor: default;
+	transform: scale(1.03);
 }
 
 @media (max-width: 1180px) {
-  .section-container {
-    margin: 0 60px 200px 60px;
-  }
-  .skill-heading {
-    scale: 0.8;
-    margin-bottom: 0px;
-  }
+	.section-container {
+		margin: 0 60px 200px 60px;
+	}
+	.skill-heading {
+		scale: 0.8;
+		margin-bottom: 0px;
+	}
 
-  .tools-heading {
-    scale: 0.8;
-    margin-top: 400px;
-  }
+	.tools-heading {
+		scale: 0.8;
+		margin-top: 400px;
+	}
 }
 
 @media (max-width: 880px) {
-  .section-container {
-    margin: 0 30px 00px 30px;
-  }
+	.section-container {
+		margin: 0 30px 00px 30px;
+	}
 
-  .skill-heading {
-    scale: 0.6;
-    margin-bottom: 0px;
-  }
+	.skill-heading {
+		scale: 0.6;
+		margin-bottom: 0px;
+	}
 
-  .tools-heading {
-    scale: 0.6;
-    margin-top: 400px;
-  }
+	.tools-heading {
+		scale: 0.6;
+		margin-top: 400px;
+	}
 }
 
 /* 

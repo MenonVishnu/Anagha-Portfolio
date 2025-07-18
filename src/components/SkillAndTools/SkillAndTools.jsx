@@ -54,7 +54,7 @@ const SkillAndTools = () => {
           </div>
 
           {/* UX Design */}
-          <div className="sk-ele-1">
+          <div className="sk-ele-1"> 
             <p>UX Design</p>
             <div className="circle-yellow"></div>
             <img src={skill1arr} alt="skill-1-arr" />
