@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .project-heading {
@@ -17,4 +19,17 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 70px;
+}
+
+.projects-slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px 40px;
+}
+
+.project-slide {
+  display: flex !important;
+  justify-content: center;
+  box-sizing: border-box;
 }
