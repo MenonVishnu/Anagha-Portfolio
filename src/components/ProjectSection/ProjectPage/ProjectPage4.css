@@ -394,6 +394,12 @@
   bottom: 1100px;
 }
 
+.stickynotes > #arrow-9 {
+  position: absolute;
+  left: -90px;
+  top: 100px;
+}
+
 .project-4-wireframe-title-1 > #arrow-4 {
   position: absolute;
   right: -40px;
@@ -421,6 +427,11 @@
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+.project-4-image-container > img {
+  width: 197px;
+  height: 427px;
 }
 
 .project-4-image-container-top

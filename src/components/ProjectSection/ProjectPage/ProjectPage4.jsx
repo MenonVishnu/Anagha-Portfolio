@@ -5,32 +5,34 @@ import "./ProjectPage4.css";
 
 import Image from "../../../assets/Projects/ProjectPage4/Project-4-Cover.png";
 import Image1 from "../../../assets/Projects/ProjectPage4/Project-4-image1.png";
-import arrow1 from "../../../assets/Projects/ProjectPage3/arrow1.png";
-import arrow2 from "../../../assets/Projects/ProjectPage3/arrow2.png";
-import arrow3 from "../../../assets/Projects/ProjectPage3/arrow3.png";
-import arrow4 from "../../../assets/Projects/ProjectPage3/arrow4.png";
-import arrow5 from "../../../assets/Projects/ProjectPage3/arrow5.png";
-import arrow6 from "../../../assets/Projects/ProjectPage3/arrow6.png";
-import arrow7 from "../../../assets/Projects/ProjectPage3/arrow7.png";
-import arrow8 from "../../../assets/Projects/ProjectPage3/arrow8.png";
+import StoryBoarding from "../../../assets/Projects/ProjectPage4/StoryBoarding.png";
+import arrow1 from "../../../assets/Projects/ProjectPage4/arrow1.png";
+import arrow2 from "../../../assets/Projects/ProjectPage4/arrow2.png";
+import arrow3 from "../../../assets/Projects/ProjectPage4/arrow3.png";
+import arrow4 from "../../../assets/Projects/ProjectPage4/arrow4.png";
+import arrow5 from "../../../assets/Projects/ProjectPage4/arrow5.png";
+import arrow6 from "../../../assets/Projects/ProjectPage4/arrow6.png";
+import arrow7 from "../../../assets/Projects/ProjectPage4/arrow7.png";
+import arrow8 from "../../../assets/Projects/ProjectPage4/arrow8.png";
+import arrow9 from "../../../assets/Projects/ProjectPage4/arrow9.png";
 
 // wireframes
-import wireframe1 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe1.png";
-import wireframe2 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe2.png";
-import wireframe3 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe3.png";
-import wireframe4 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe4.png";
-import wireframe5 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe5.png";
-import wireframe6 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe6.png";
-import wireframe7 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe7.png";
-import wireframe8 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe8.png";
-import wireframe9 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe9.png";
-import wireframe10 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe10.png";
-import wireframe11 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe11.png";
-import wireframe12 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe12.png";
-import wireframe13 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe13.png";
-import wireframe14 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe14.png";
-import wireframe15 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe15.png";
-import wireframe16 from "../../../assets/Projects/ProjectPage3/Wireframes/wireframe16.png";
+import wireframe1 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe1.png";
+import wireframe2 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe2.png";
+import wireframe3 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe3.png";
+import wireframe4 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe4.png";
+import wireframe5 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe5.png";
+import wireframe6 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe6.png";
+import wireframe7 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe7.png";
+import wireframe8 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe8.png";
+import wireframe9 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe9.png";
+import wireframe10 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe10.png";
+// import wireframe11 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe11.png";
+// import wireframe12 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe12.png";
+// import wireframe13 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe13.png";
+// import wireframe14 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe14.png";
+// import wireframe15 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe15.png";
+// import wireframe16 from "../../../assets/Projects/ProjectPage4/Wireframes/wireframe16.png";
 
 // sticky notes
 import stickyNote1 from "../../../assets/Projects/ProjectPage4/StickyNote1.png";
@@ -189,7 +191,7 @@ const ProjectPage4 = () => {
 
         <div className="project-4-wireframe-section">
           <div className="project-4-mid-title" style={{ width: "40%" }}>
-            Mobile UI Wireframing
+            Story Boarding & Wireframing
           </div>
           <div className="project-4-template-image">
             <img id="arrow-6" src={arrow6} alt="" />
@@ -244,14 +246,30 @@ const ProjectPage4 = () => {
           </div>
         </div>
 
+        {/*  Story Boarding */}
+        <div
+          className="project-4-fidelity-container"
+          style={{
+            width: "100%",
+          }}
+        >
+          <div className="project-4-fidelity-title" style={{ width: "90%" }}>
+            Story Boarding
+          </div>
+          <div className="project-4-story-sub">
+            <img src={StoryBoarding} alt="" />
+            <div
+              className="stickynotes"
+              style={{ bottom: "-100px", right: "-80px" }}
+            >
+              <img id="arrow-9" src={arrow9} alt="" />
+              <img src={stickyNote2} alt="" />
+            </div>
+          </div>
+        </div>
+
         <div className="project-4-fidelity-container">
           <div className="project-4-fidelity-title">Wireframes</div>
-          <div
-            className="stickynotes"
-            style={{ top: "-140px", right: "-80px" }}
-          >
-            <img src={stickyNote2} alt="" />
-          </div>
 
           <div className="project-4-wireframe-title-1">
             <p style={{ transform: "rotate(-9deg)" }}>
@@ -260,16 +278,46 @@ const ProjectPage4 = () => {
             <img id="arrow-4" src={arrow4} alt="" />
           </div>
 
-          {[1, 2].map((num) => (
-            <div className="project-4-wireframes" key={num}>
-              <div className="project-4-number-container">{num}</div>
-              {[1, 2, 3, 4].map((_, i) => (
-                <div className="project-4-image-container" key={i}>
-                  <img src={eval(`wireframe${(num - 1) * 4 + i + 1}`)} alt="" />
-                </div>
-              ))}
+          <div className="project-4-wireframes">
+            <div className="project-4-number-container">1</div>
+            <div className="project-4-image-container">
+              <img src={wireframe1} alt="" />
             </div>
-          ))}
+            <div className="project-4-image-container">
+              <img src={wireframe2} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe3} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe4} alt="" />
+            </div>
+          </div>
+
+          <div className="project-4-wireframes">
+            <div className="project-4-number-container">2</div>
+            <div className="project-4-image-container">
+              <img src={wireframe5} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe6} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe7} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe8} alt="" />
+            </div>
+          </div>
+          <div className="project-4-wireframes">
+            <div className="project-4-number-container">3</div>
+            <div className="project-4-image-container">
+              <img src={wireframe9} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe10} alt="" />
+            </div>
+          </div>
 
           <div className="project-4-wireframe-title-2">
             <p style={{ transform: "rotate(9deg)" }}>
@@ -278,16 +326,37 @@ const ProjectPage4 = () => {
             <img id="arrow-5" src={arrow5} alt="" />
           </div>
 
-          {[3, 4].map((num) => (
-            <div className="project-4-wireframes" key={num}>
-              <div className="project-4-number-container">{num}</div>
-              {[1, 2, 3, 4].map((_, i) => (
-                <div className="project-4-image-container" key={i}>
-                  <img src={eval(`wireframe${(num - 1) * 4 + i + 1}`)} alt="" />
-                </div>
-              ))}
+          <div className="project-4-wireframes">
+            <div className="project-4-number-container">1</div>
+            <div className="project-4-image-container">
+              <img src={wireframe1} alt="" />
             </div>
-          ))}
+            <div className="project-4-image-container">
+              <img src={wireframe2} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe3} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe4} alt="" />
+            </div>
+          </div>
+
+          <div className="project-4-wireframes">
+            <div className="project-4-number-container">2</div>
+            <div className="project-4-image-container">
+              <img src={wireframe5} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe6} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe7} alt="" />
+            </div>
+            <div className="project-4-image-container">
+              <img src={wireframe8} alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <ViewWork />
