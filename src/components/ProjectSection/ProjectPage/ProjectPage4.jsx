@@ -341,7 +341,8 @@ const ProjectPage4 = () => {
               className="stickynotes"
               style={{
                 bottom: "80px",
-                right: "calc((100vw - 1290px) / -2)",
+                // right: "calc((100vw - 1290px) / -2)",
+                right: "-75px",
               }}
             >
               <img src={stickyNote3} alt="" />

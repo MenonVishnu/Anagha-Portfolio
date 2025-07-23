@@ -1,6 +1,7 @@
 .project-2-project-page {
   padding: 0px 0 60px 0;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .project-2-top-section {
