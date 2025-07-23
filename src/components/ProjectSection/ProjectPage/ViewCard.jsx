@@ -8,14 +8,16 @@ import customShape from "../../../assets/Projects/ProjectPage3/Rectangle 210.png
 
 const ViewCard = (props) => {
   return (
-    <div className="glass-container">
+    <div
+      className="glass-container"
+      onClick={() => window.open(props.data.href, "_blank")}
+    >
       <div
         className="shape"
         style={{
           backgroundImage: `url(${customShape})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "auto",
-          //   backgroundColor: "black",
         }}
       >
         <div className="empty"></div>

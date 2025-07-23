@@ -40,7 +40,7 @@
 
 .glass-container {
   padding: 20px;
-  background-color: #f5f5f540;
+  background-color: #f5f5f575;
   /* background-color: #000; */
   border: 1px solid #f0f0f0;
   border-radius: 20px;
@@ -50,6 +50,7 @@
 
 .glass-container:hover {
   transform: scale(1.03);
+  cursor: pointer;
 }
 
 .shape {
