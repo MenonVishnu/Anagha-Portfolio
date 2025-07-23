@@ -365,7 +365,7 @@ const ProjectPage4 = () => {
           <div
             className="project-4-wireframes"
             style={{
-              gap: "40px",
+              gap: "30px",
             }}
           >
             <div className="project-4-number-container">4</div>
