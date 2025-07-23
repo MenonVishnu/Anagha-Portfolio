@@ -226,30 +226,38 @@ const ProjectPage = () => {
             <div className="wireframe-sub">
               <div className="wireframe-title">What is Story Boarding?</div>
               <div className="wireframe-content">
-                Storyboarding is a visual representation of a sequence of events
-                or actions, typically used to map out a narrative or user
-                journey. It's akin to a comic strip where each panel represents
-                a scene or key moment. In web or app development, storyboards
-                are used to outline the flow of user interactions, showing how
-                users will navigate through different features or sections.
-                Storyboarding helps teams visualize and plan the overall
-                experience, ensuring that all elements fit cohesively and align
-                with the intended user journey.
+                Storyboarding is a <b>visual representation</b> of a sequence of
+                events or actions, typically used to map out a{" "}
+                <b>narrative or user journey</b>. It's akin to a comic strip
+                where each panel represents a scene or key moment. In web or app
+                development,{" "}
+                <b>
+                  storyboards are used to outline the flow of user interactions
+                </b>
+                , showing how users will navigate through different features or
+                sections. Storyboarding helps teams{" "}
+                <b>visualize and plan the overall experience</b>, ensuring that
+                all elements fit cohesively and align with the intended user
+                journey.
               </div>
             </div>
             <div className="wireframe-sub">
               <div className="wireframe-title">What is Wireframing? </div>
               <div className="wireframe-content">
                 Wireframing is a low-fidelity, blueprint-like sketch of a
-                webpage, app, or interface. It focuses on the structure and
-                layout, showing where key elements like buttons, navigation,
-                text, and images will be placed. Wireframes are typically devoid
-                of colors, graphics, or intricate design details, allowing
-                designers to concentrate on the basic layout and functionality.
-                Wireframing helps teams get early feedback on usability and user
-                flow before investing time in more detailed design or
-                development, serving as a practical tool for visualizing the
-                user interface's structure and ensuring intuitive navigation.
+                webpage, app, or interface. It{" "}
+                <b>focuses on the structure and layout</b>, showing where key
+                elements like buttons, navigation, text, and images will be
+                placed. Wireframes are typically devoid of colors, graphics, or
+                intricate design details, allowing designers to concentrate on
+                the <b>basic layout and functionality</b>. Wireframing helps
+                teams get early feedback on usability and user flow before
+                investing time in more detailed design or development, serving
+                as a{" "}
+                <b>
+                  practical tool for visualizing the user interface's structure
+                </b>{" "}
+                and ensuring intuitive navigation.
               </div>
             </div>
           </div>
