@@ -1,6 +1,6 @@
 .thankyou-container {
   position: relative;
-  margin: 220px 0 120px 0;
+  margin: 180px 0 120px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,9 +30,9 @@
 }
 
 .thankyou-icons {
-  margin: 40px 0 0 0;
+  margin: 30px 0 0 0;
   display: flex;
-  gap: 100px;
+  gap: 50px;
 }
 
 .icon-wrapper {
@@ -56,7 +56,7 @@
 
 .right-side {
   width: 40%;
-  padding: 50px 60px 30px 60px;
+  padding: 70px 60px 50px 60px;
   margin: 0px 0px 0px 0px;
 
   width: 70%;
@@ -77,7 +77,7 @@
 
 .thankyou-arrow {
   position: absolute;
-  bottom: 70px;
+  bottom: 60px;
   left: 40%;
 }
 
