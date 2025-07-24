@@ -1,69 +1,84 @@
 .thankyou-container {
   position: relative;
-  margin: 120px 0 60px 0;
+  margin: 180px 0 120px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.left-box {
-  position: absolute;
-  z-index: -1;
-  width: 40%;
-  height: 209px;
-  background-color: #ff5757;
-  border-radius: 0px 20px 20px 0px;
-  left: 0;
-}
-
 .thankyou-heading {
   font-family: "Koulen";
   font-size: 120px;
+  line-height: 130px;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 4px #00000030;
 }
 
 .thankyou-content {
-  font-family: "kalam";
+  font-family: "inter";
   padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: start;
-  gap: 100px;
+  /* gap: 50px; */
 }
 
 .left-side {
-  /* width: 50vw; */
-  text-align: right;
+  margin: 0 0 0 80px;
+  text-align: left;
 }
 
-.left-side p {
-  width: 500px;
-  font-size: 20px;
-  line-height: 40px;
+.thankyou-icons {
+  margin: 30px 0 0 0;
+  display: flex;
+  gap: 50px;
+}
+
+.icon-wrapper {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+
+  border-radius: 50%;
+  box-shadow: 0px 4px 12px 0px #00000010;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform ease-in 0.3s;
+}
+
+.icon-wrapper:hover {
+  transform: scale(1.04);
+  cursor: pointer;
 }
 
 .right-side {
   width: 40%;
-  padding: 10px 0px 30px 0px;
-  margin: 0px 100px 0px 0px;
+  padding: 70px 60px 50px 60px;
+  margin: 0px 0px 0px 0px;
+
+  width: 70%;
+  height: fit-content;
+  background-color: #ffe2d1;
+  border-radius: 20px 0px 0px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .right-side p {
-  font-size: 20px;
-  line-height: 30px;
-  line-height: 30px;
-  /* letter-spacing: 10px; */
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 1.5px;
 }
 
-.right-box {
+.thankyou-arrow {
   position: absolute;
-  z-index: -1;
-  width: 40%;
-  height: 209px;
-  background-color: #ff5757;
-  border-radius: 20px 0px 0px 20px;
-  right: 0;
-  bottom: -30px;
+  bottom: 60px;
+  left: 40%;
 }
 
 @media (max-width: 880px) {
